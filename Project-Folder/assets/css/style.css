@@ -1,0 +1,69 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles for navigation bar */
+nav ul {
+    list-style-type: none;
+    background-color: #333;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Styles for banner section */
+.banner {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.banner h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+/* Styles for information section */
+.information {
+    background-color: #ddd;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.information h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Styles for feedback form */
+form input,
+form textarea,
+form button {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
